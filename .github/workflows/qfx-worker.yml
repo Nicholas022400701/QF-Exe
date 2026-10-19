@@ -1,0 +1,64 @@
+name: qfx-worker
+on:
+  push:
+    branches: [main]
+    paths: ['queue/pending/**']
+  workflow_dispatch:
+    inputs:
+      task_id:
+        required: false
+        default: ''
+      workers:
+        required: false
+        default: ''
+  schedule:
+    - cron: '17,47 * * * *'
+permissions:
+  contents: write
+  actions: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      count: ${{ steps.plan.outputs.count }}
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - id: plan
+        env:
+          QFX_TASK_ID: ${{ github.event.inputs.task_id }}
+          QFX_WORKERS: ${{ github.event.inputs.workers }}
+          QFX_EVENT: ${{ github.event_name }}
+        run: python3 tools/qfx_plan.py
+  work:
+    needs: plan
+    if: needs.plan.outputs.count != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 40
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: deps
+        run: python3 -m pip install -q cryptography
+      - name: work
+        env:
+          QFX_KEY: ${{ secrets.QFX_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          QFX_TASK_ID: ${{ github.event.inputs.task_id }}
+          QFX_SLOT: ${{ matrix.slot }}
+          QFX_WORKERS: ${{ needs.plan.outputs.count }}
+          QFX_JOB_BUDGET: '19200'
+        run: |
+          if [ -z "$QFX_KEY" ]; then echo "QFX_KEY secret missing"; exit 1; fi
+          python3 tools/qfx_worker.py
