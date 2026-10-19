@@ -39,10 +39,30 @@
    "slot": "1",
    "started_at": "2026-10-19T18:27:27Z",
    "task_id": "20261019T133441Z-t9formal-s06-f391"
+  },
+  {
+   "attempt": 3,
+   "blob_bytes": 242082,
+   "blob_sha16": "041d960e077b9bef",
+   "finished_at": "2026-10-19T18:27:39Z",
+   "outcome": "continue",
+   "parts": [
+    {
+     "chars": 322776,
+     "name": "attempt03.part000.b64",
+     "sha16": "5153b579d55f2ddf"
+    }
+   ],
+   "rc": 75,
+   "run_id": "39261628531",
+   "seconds": 3.0,
+   "slot": "1",
+   "started_at": "2026-10-19T18:27:36Z",
+   "task_id": "20261019T133441Z-t9formal-s06-f391"
   }
  ],
- "last_attempt": 2,
+ "last_attempt": 3,
  "outcome": "continue",
  "task_id": "20261019T133441Z-t9formal-s06-f391",
- "updated_at": "2026-10-19T18:27:30Z"
+ "updated_at": "2026-10-19T18:27:39Z"
 }
