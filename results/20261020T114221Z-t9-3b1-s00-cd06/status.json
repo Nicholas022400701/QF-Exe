@@ -1,0 +1,473 @@
+{
+ "attempts": [
+  {
+   "attempt": 1,
+   "blob_bytes": 40173183,
+   "blob_sha16": "0babbb9215c972f6",
+   "finished_at": "2026-10-20T12:21:41Z",
+   "outcome": "done",
+   "parts": [
+    {
+     "chars": 600000,
+     "name": "attempt01.part000.b64",
+     "sha16": "41c69ef924e8a0b1"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part001.b64",
+     "sha16": "7fdcd35e3d5a9b07"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part002.b64",
+     "sha16": "f6191a51e63b7154"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part003.b64",
+     "sha16": "f44eafe8d4f383ad"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part004.b64",
+     "sha16": "b662dee451bb36ef"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part005.b64",
+     "sha16": "0a781b5da9864763"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part006.b64",
+     "sha16": "ffb86e268d9724b5"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part007.b64",
+     "sha16": "52fa0e6c6250effd"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part008.b64",
+     "sha16": "675c0a0885a49271"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part009.b64",
+     "sha16": "878356e4e177e6fe"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part010.b64",
+     "sha16": "3ce985ab54d67b60"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part011.b64",
+     "sha16": "79208fc6b0e44360"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part012.b64",
+     "sha16": "2116a7bea49bfc90"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part013.b64",
+     "sha16": "6b38cf5a7fc0f70d"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part014.b64",
+     "sha16": "d9f562fecff5393e"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part015.b64",
+     "sha16": "50a5bf3915335682"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part016.b64",
+     "sha16": "fe5d7caf8ab60c29"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part017.b64",
+     "sha16": "d14c82155105f7db"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part018.b64",
+     "sha16": "9abbd60f49719448"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part019.b64",
+     "sha16": "1b1ffedda5eb96d8"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part020.b64",
+     "sha16": "61855fe85f7e3207"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part021.b64",
+     "sha16": "ab03236a2021ecaa"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part022.b64",
+     "sha16": "8a928d759563dc5c"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part023.b64",
+     "sha16": "cd8ddc6f0198ee63"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part024.b64",
+     "sha16": "743bed1d1eae21e0"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part025.b64",
+     "sha16": "7ffb4220a46109fa"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part026.b64",
+     "sha16": "1c38b56aad21eba5"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part027.b64",
+     "sha16": "d57f7000f229b7e2"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part028.b64",
+     "sha16": "ed118b46ea9b2932"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part029.b64",
+     "sha16": "a6edd6f2c25ff58a"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part030.b64",
+     "sha16": "9f412b635e771b90"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part031.b64",
+     "sha16": "4e200815bb48e29d"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part032.b64",
+     "sha16": "f624bdc3056a5e82"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part033.b64",
+     "sha16": "fe956742f869f714"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part034.b64",
+     "sha16": "2c3367c1e243ebcf"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part035.b64",
+     "sha16": "8e36aa2eac044bcd"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part036.b64",
+     "sha16": "622b9adda01e0b20"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part037.b64",
+     "sha16": "40a2d69b205e8f6d"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part038.b64",
+     "sha16": "49f8e6e8cc488d57"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part039.b64",
+     "sha16": "b9de82a4a57b2fef"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part040.b64",
+     "sha16": "5ec75d20a888ea6a"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part041.b64",
+     "sha16": "65549eb4d80e67d3"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part042.b64",
+     "sha16": "306199ee500af955"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part043.b64",
+     "sha16": "1a870e5089661126"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part044.b64",
+     "sha16": "42b7baaeb2f95eea"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part045.b64",
+     "sha16": "c9904623dbc2907c"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part046.b64",
+     "sha16": "3a5190596383d016"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part047.b64",
+     "sha16": "ee0f6027e57a78d5"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part048.b64",
+     "sha16": "9d021f7f1479da47"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part049.b64",
+     "sha16": "b59fe1231ab0e4b9"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part050.b64",
+     "sha16": "e40e8d0e7871eb65"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part051.b64",
+     "sha16": "e445663befe8a5d9"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part052.b64",
+     "sha16": "16a966a219ea7605"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part053.b64",
+     "sha16": "207e1b950750981f"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part054.b64",
+     "sha16": "dc4c2653157648d9"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part055.b64",
+     "sha16": "76841712e9e8bd60"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part056.b64",
+     "sha16": "5fca77ff2c11123a"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part057.b64",
+     "sha16": "916e2a74eb40086e"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part058.b64",
+     "sha16": "7bf2771d106a3c48"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part059.b64",
+     "sha16": "74ffb20b97d7266e"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part060.b64",
+     "sha16": "271aedd4ac6ba429"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part061.b64",
+     "sha16": "4396eb4c0f7c91a7"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part062.b64",
+     "sha16": "867cba819ea4f374"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part063.b64",
+     "sha16": "d29196c4319023e8"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part064.b64",
+     "sha16": "b7fc1581195a4cf3"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part065.b64",
+     "sha16": "120f1b1c464413ba"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part066.b64",
+     "sha16": "ee251c26b1fba8d0"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part067.b64",
+     "sha16": "76bcb40374dbae47"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part068.b64",
+     "sha16": "a73bf1a51db19afd"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part069.b64",
+     "sha16": "fb9c8e19826eb93f"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part070.b64",
+     "sha16": "b956b5914497f40e"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part071.b64",
+     "sha16": "4428076eed969c3e"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part072.b64",
+     "sha16": "2412088eaf2d49d4"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part073.b64",
+     "sha16": "c20ffb67767edc39"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part074.b64",
+     "sha16": "6108d0becbe03346"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part075.b64",
+     "sha16": "db922750fb69ef87"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part076.b64",
+     "sha16": "ebc201f1a544950c"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part077.b64",
+     "sha16": "cd5505ba9878981c"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part078.b64",
+     "sha16": "c84a2cccff1cc2f4"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part079.b64",
+     "sha16": "0d22e1d3accc9eb2"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part080.b64",
+     "sha16": "5934592c5d797530"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part081.b64",
+     "sha16": "538e1bb3c35354e1"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part082.b64",
+     "sha16": "3a5d00487cb9fd9e"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part083.b64",
+     "sha16": "e1bcc23033fa9765"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part084.b64",
+     "sha16": "7e6aecef60e99fde"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part085.b64",
+     "sha16": "a56ed9f225334625"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part086.b64",
+     "sha16": "c30227e93423f721"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part087.b64",
+     "sha16": "b579079d0262c799"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part088.b64",
+     "sha16": "fa587e8596017175"
+    },
+    {
+     "chars": 164244,
+     "name": "attempt01.part089.b64",
+     "sha16": "b70574288efce2c8"
+    }
+   ],
+   "rc": 0,
+   "run_id": "39416882989",
+   "seconds": 2322.7,
+   "slot": "1",
+   "started_at": "2026-10-20T11:42:56Z",
+   "task_id": "20261020T114221Z-t9-3b1-s00-cd06"
+  }
+ ],
+ "last_attempt": 1,
+ "outcome": "done",
+ "task_id": "20261020T114221Z-t9-3b1-s00-cd06",
+ "updated_at": "2026-10-20T12:21:42Z"
+}
