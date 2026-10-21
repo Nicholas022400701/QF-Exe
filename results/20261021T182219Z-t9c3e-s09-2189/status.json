@@ -1,0 +1,28 @@
+{
+ "attempts": [
+  {
+   "attempt": 1,
+   "blob_bytes": 90777,
+   "blob_sha16": "c60149116c43d96e",
+   "finished_at": "2026-10-21T19:31:39Z",
+   "outcome": "done",
+   "parts": [
+    {
+     "chars": 121036,
+     "name": "attempt01.part000.b64",
+     "sha16": "aea8e0fca7129228"
+    }
+   ],
+   "rc": 0,
+   "run_id": "39652154451",
+   "seconds": 4055.0,
+   "slot": "11",
+   "started_at": "2026-10-21T18:24:04Z",
+   "task_id": "20261021T182219Z-t9c3e-s09-2189"
+  }
+ ],
+ "last_attempt": 1,
+ "outcome": "done",
+ "task_id": "20261021T182219Z-t9c3e-s09-2189",
+ "updated_at": "2026-10-21T19:31:40Z"
+}
