@@ -1,0 +1,33 @@
+{
+ "attempts": [
+  {
+   "attempt": 1,
+   "blob_bytes": 524725,
+   "blob_sha16": "40469d9ebbbccc9e",
+   "finished_at": "2026-10-24T06:52:32Z",
+   "outcome": "done",
+   "parts": [
+    {
+     "chars": 600000,
+     "name": "attempt01.part000.b64",
+     "sha16": "ea881c777135e9ab"
+    },
+    {
+     "chars": 99636,
+     "name": "attempt01.part001.b64",
+     "sha16": "4aeaaa72ee993326"
+    }
+   ],
+   "rc": 0,
+   "run_id": "40071778613",
+   "seconds": 97.9,
+   "slot": "1",
+   "started_at": "2026-10-24T06:50:54Z",
+   "task_id": "20261024T064545Z-jia1line2-s00-c48c"
+  }
+ ],
+ "last_attempt": 1,
+ "outcome": "done",
+ "task_id": "20261024T064545Z-jia1line2-s00-c48c",
+ "updated_at": "2026-10-24T06:52:33Z"
+}
