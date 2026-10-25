@@ -1,0 +1,63 @@
+{
+ "attempts": [
+  {
+   "attempt": 1,
+   "blob_bytes": 3317511,
+   "blob_sha16": "0fd735f5fa95335e",
+   "finished_at": "2026-10-25T08:32:33Z",
+   "outcome": "done",
+   "parts": [
+    {
+     "chars": 600000,
+     "name": "attempt01.part000.b64",
+     "sha16": "377d17c924ec8cd0"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part001.b64",
+     "sha16": "7593c7e71ad10052"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part002.b64",
+     "sha16": "38ef4fa1979c2712"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part003.b64",
+     "sha16": "c6714c25ab9bafa8"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part004.b64",
+     "sha16": "84bb5976a87dabea"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part005.b64",
+     "sha16": "02897426990048c6"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part006.b64",
+     "sha16": "f154e67d4ea6ca2e"
+    },
+    {
+     "chars": 223348,
+     "name": "attempt01.part007.b64",
+     "sha16": "51dd036ddfb03433"
+    }
+   ],
+   "rc": 0,
+   "run_id": "40176484111",
+   "seconds": 445.2,
+   "slot": "1",
+   "started_at": "2026-10-25T08:25:08Z",
+   "task_id": "20261025T082242Z-data129-s04-a4d8"
+  }
+ ],
+ "last_attempt": 1,
+ "outcome": "done",
+ "task_id": "20261025T082242Z-data129-s04-a4d8",
+ "updated_at": "2026-10-25T08:32:34Z"
+}
