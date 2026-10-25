@@ -1,0 +1,153 @@
+{
+ "attempts": [
+  {
+   "attempt": 1,
+   "blob_bytes": 11292747,
+   "blob_sha16": "be888a54977babe0",
+   "finished_at": "2026-10-25T14:58:51Z",
+   "outcome": "done",
+   "parts": [
+    {
+     "chars": 600000,
+     "name": "attempt01.part000.b64",
+     "sha16": "86eea8133eb9fa85"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part001.b64",
+     "sha16": "084abc272d5ab692"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part002.b64",
+     "sha16": "339d05c86b0ba1cc"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part003.b64",
+     "sha16": "92a3eb86b48c0d96"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part004.b64",
+     "sha16": "e4e605cbf2f1fd83"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part005.b64",
+     "sha16": "7be69df5f374246f"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part006.b64",
+     "sha16": "822e15b069246413"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part007.b64",
+     "sha16": "e7542a4955291918"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part008.b64",
+     "sha16": "2d2fe8280db0903d"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part009.b64",
+     "sha16": "674c8c8f78bd4fb3"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part010.b64",
+     "sha16": "11924bbd3feab1c1"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part011.b64",
+     "sha16": "abd165c6452f65d1"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part012.b64",
+     "sha16": "8fdeea8f761ebd16"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part013.b64",
+     "sha16": "77c02839b6dbba87"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part014.b64",
+     "sha16": "e264095e5e15de67"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part015.b64",
+     "sha16": "353c0e0404083aab"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part016.b64",
+     "sha16": "6b7936296dec6031"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part017.b64",
+     "sha16": "2c992e9e4c0ebbcf"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part018.b64",
+     "sha16": "03d34f3f4f7e5a77"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part019.b64",
+     "sha16": "873080e1d3e7ebf9"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part020.b64",
+     "sha16": "9c275d124307a2a0"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part021.b64",
+     "sha16": "1935cb11e7d52467"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part022.b64",
+     "sha16": "ec34d0b3442995a3"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part023.b64",
+     "sha16": "4501565c2f946d63"
+    },
+    {
+     "chars": 600000,
+     "name": "attempt01.part024.b64",
+     "sha16": "175d80eaf010e059"
+    },
+    {
+     "chars": 56996,
+     "name": "attempt01.part025.b64",
+     "sha16": "bfd58ccaed48a6b9"
+    }
+   ],
+   "rc": 0,
+   "run_id": "40204540163",
+   "seconds": 126.2,
+   "slot": "1",
+   "started_at": "2026-10-25T14:56:45Z",
+   "task_id": "20261025T144242Z-data129s7-2aa3"
+  }
+ ],
+ "last_attempt": 1,
+ "outcome": "done",
+ "task_id": "20261025T144242Z-data129s7-2aa3",
+ "updated_at": "2026-10-25T14:58:51Z"
+}
